@@ -1,0 +1,70 @@
+baseurl = "https://inusarukiji139.github.io/"
+title = "139のおぼえがき"
+DefaultContentLanguage = "ja"
+languageCode = "ja-JP"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+hasCJKLanguage = true
+
+[Author] # Used in authorbox
+  name = "inusarukiji139"
+  bio = "こんにちは～。"
+  avatar = "img/peach.png"
+
+[Params]
+  subtitle = "139のおぼえがき" # Deprecated in favor of .Site.Params.logo.subtitle
+  description = "技術メモや雑記" # Site description. Used in meta description
+  copyright = "inusarukiji139" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # 目次が追加される
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["date", "categories"] # Order of post meta information
+  mainSections = ["post"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  highlightColor = "#16878C" # Override highlight color
+  customCSS = ["css/custom.css"] # Include custom CSS files
+#customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.logo]
+  #image = "img/peach.png" # Logo image. Path relative to "static"
+  title = "139のおぼえがき" # Logo title, otherwise will use site title
+  subtitle = "技術メモや雑記" # Logo subtitle
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["recent", "categories", "taglist", "social"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  # Enable parts of social widget
+#   facebook = "username"
+#   twitter = "username"
+#   instagram = "username"
+#   linkedin = "username"
+#   telegram = "username"
+    github = "inusarukiji139"
+#   gitlab = "username"
+#   bitbucket = "username"
+#   mail = "@gmail.com"
+
+[[Menus.main]]
+  Name = "トップページ"
+  URL = "/"
+  weight = 1
