@@ -32,4 +32,4 @@ int main() {
 }
 ```
 
-{{<figure src="http://localhost:1313/post/sample/image.jpeg" alt="モード" width="75%">}}
+{{<figure src="https://inusarukiji139.github.io/post/sample/image.jpeg" alt="モード" width="75%">}}
