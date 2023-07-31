@@ -15,7 +15,7 @@ hasCJKLanguage = true
 
 [Params]
   subtitle = "139のおぼえがき" # Deprecated in favor of .Site.Params.logo.subtitle
-  description = "技術メモや雑記" # Site description. Used in meta description
+  description = "メモ・日記" # Site description. Used in meta description
   copyright = "inusarukiji139" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
@@ -37,7 +37,7 @@ hasCJKLanguage = true
 [Params.logo]
   #image = "img/peach.png" # Logo image. Path relative to "static"
   title = "139のおぼえがき" # Logo title, otherwise will use site title
-  subtitle = "技術メモや雑記" # Logo subtitle
+  subtitle = "メモ・日記" # Logo subtitle
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
