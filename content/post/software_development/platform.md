@@ -1,7 +1,7 @@
 ---
-title: "プラットフォーム系　用語整理"
+title: "プラットフォーム　用語整理"
 date: 2023-07-30
-categories: ["システム開発"]
-tags: ["システム開発全般"]
+categories: ["システム開発概論"]
+tags: ["プラットフォーム"]
 draft: true
 ---
