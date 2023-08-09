@@ -10,7 +10,7 @@ hasCJKLanguage = true
 
 [Author] # Used in authorbox
   name = "inusarukiji139"
-  bio = "もろたで駆動開発"
+  bio = "モロタデ駆動開発"
   avatar = "img/peach.png"
 
 [Params]
@@ -37,7 +37,7 @@ hasCJKLanguage = true
 [Params.logo]
   #image = "img/peach.png" # Logo image. Path relative to "static"
   title = "139のおぼえがき" # Logo title, otherwise will use site title
-  subtitle = "メモ・日記" # Logo subtitle
+  subtitle = "メモと日記を書きます" # Logo subtitle
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
