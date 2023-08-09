@@ -1,8 +1,8 @@
 ---
-title: "OOP　用語整理"
-date: 2023-07-30
-categories: ["OOP"]
-tags: ["OOP"]
+title: "オブジェクト指向　用語整理"
+date: 2023-08-01
+categories: ["オブジェクト指向"]
+tags: ["オブジェクト指向"]
 ---
 ## 歴史
 
