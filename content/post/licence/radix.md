@@ -1,6 +1,6 @@
 ---
 title: "基数変換　サンプルプログラム"
-date: 2023-07-30
+date: 2023-08-09
 categories: ["資格"]
 tags: ["基本情報"]
 ---
@@ -49,7 +49,7 @@ while True:
     elif num > 1:
         answer = answer + "1"
         num = num - 1
-    # ③小数部が0になるまで繰り返し
+    # ③小数部が1になるまで繰り返す
     if num == 1:
         answer = answer + "1"
         break
@@ -82,7 +82,7 @@ while True:
     result = result + int(binary[index]) * 2 ** base
     # 次の桁がなくなるまで繰り返し
     index = index + 1
-    if index < len(binary):
+    if index == len(binary):
         break
     
 print(result)
